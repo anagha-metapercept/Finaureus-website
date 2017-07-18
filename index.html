@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>Robo@work</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/purple-theme.css">
+</head>
+
+<body onload="init();">
+<div id="top-content" class="container-fluid">
+  <div class="color-overlay accent-color-bg"></div>
+  <div class="container-fluid logo-menu menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 text-left lrg-logo">
+          <!--canvas id="logo-canvas" width="50" height="50"></canvas-->
+          <!--div class="logo-txt"><img src="images/roboatwork-logo-white.png" height="50px" width="auto" alt=""></div-->
+          <div class="logo-img"><img src="images/robowork-logo.png" class="smg-logo" height="70px" width="auto" alt=""></div>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div id="default-button" class="menu-button">
+            <div class="fa fa-circle-o"></div>
+            <div class="fa fa-circle-o"></div>
+            <div class="fa fa-circle-o"></div>
+          </div>
+            <div id="default-menu" class="fullpage-menu">
+                <div class="close-btn"><img src="images/close-btn.png" alt=""></div>
+                <div class="menu-holder">
+                    <ul>
+                        <li><a class="menu-link" href="#header">Home</a></li>
+                        <li><a class="menu-link" href="#features">Features</a></li>
+                        <li><a class="menu-link" href="#pricing">Pricing</a></li>
+                        <li><a class="menu-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row header-content">
+      <div class="col-xs-12 text-center">
+        <div class="header-text-1"> 
+          <!--div class="word">Affordable</div-->
+        </div>
+        <div class="header-text-2">CLOUD BASED B2B2C <br>
+ROBO ADVISORY PLATFORM</div>
+        <div class="header-text-3">We enable our Clients to democratize investment advice by creating bespoke digital propositions that provides Personalised & timely insights, smart financial planning, automated & personalised investment management solutions at a fraction of the current operational cost.
+        </div>
+        <div class="signup-button">Get Started</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="features" class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 row-title accent-color-text"> Our Modules </div>
+    </div>
+    <div class="row feature-buttons-holder">
+      <div class="box3d">
+        <div class="box3d-top box3d-part accent-color-bg"></div>
+        <div class="box3d-left box3d-part accent-color-bg"></div>
+        <div class="box3d-right box3d-part accent-color-bg"></div>
+      </div>
+      <div class="feature-button feature1 color1-bg inside-box-left" data-num="1">
+        <div class="feature-icon"><i class="fa fa-3x fa-exclamation-triangle wow bounceIn module-icon-color" style="visibility: visible; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Risk Profiler</div>
+        <div class="feature-line color1-border feature-line-hide"></div>
+        <div class="feature-star fa fa-sort-desc color1 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature2 color2-bg inside-box-left" data-num="2">
+        <div class="feature-icon"><i class="fa fa-3x fa-briefcase wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Asset Alocation</div>
+        <div class="feature-line color2-border feature-line-hide"></div>
+        <div class="feature-star fa fa-sort-desc color2 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature3 color3-bg inside-box-left" data-num="3">
+        <div class="feature-icon"><i class="fa fa-3x fa-address-book wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Profolio Creator</div>
+        <div class="feature-line color3-border feature-line-hide"></div>
+        <div class="feature-star fa fa-sort-desc color3 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature4 color4-bg inside-box-left" data-num="4">
+        <div class="feature-icon"><i class="fa fa-3x fa-line-chart wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Portfolio Rebalancer</div>
+        <div class="feature-line color4-border feature-line-hide"></div>
+        <div class="feature-star fa fa-sort-desc color4 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature5 color5-bg inside-box-right" data-num="5">
+        <div class="feature-icon"><i class="fa fa-3x fa-address-book wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Portfolio Tax Loss Harvester</div>
+        <div class="feature-line color5-border feature-line-hide"></div>
+        <div class="feature-star fa fa-sort-desc color5 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature6 color6-bg inside-box-right" data-num="6">
+        <div class="feature-icon"><i class="fa fa-3x fa-id-card-o wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Client Onboarding</div>
+        <div class="feature-line color6-border feature-line-hide"></div>
+        <div class="feature-star fa fa-sort-desc color6 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature7 color7-bg inside-box-right" data-num="7">
+        <div class="feature-icon"><i class="fa fa-3x fa-handshake-o wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Client Engagement</div>
+        <div class="feature-line color7-border feature-line-hide"></div>
+        <div class="feature-star fa fa-sort-desc color7 feature-star-hide"></div>
+      </div>
+      <div class="feature-button feature8 color8-bg inside-box-right" data-num="8">
+        <div class="feature-icon"><i class="fa fa-3x fa-globe wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">All-in-One White Label Solution</div>
+        <div class="feature-line color8-border feature-line-hide"></div>
+        <div class="feature-star fa fa-sort-desc color8 feature-star-hide"></div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div id="feature-details1" class="container-fluid f-details color1-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><i class="fa fa-3x fa-exclamation-triangle wow bounceIn module-icon-color" style="visibility: visible; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Risk Profiler</div>
+        <div class="feature-text"> Risk Profiler module that provides immediate assessment of a clients’ Risk tolerance. This module is to be used by B2B providers to gauge the ability of a client to introduce various levels of risk into their portfolio. Since Risk Profiling is an integral and formative part of Financial Planning, Finaureus has developed a proprietary Risk Profiling Algorithm that has been extensively back-tested in-order to ensure their risk tolerance limits are in tune with their Demographics, Life Goals, and most importantly, their knowledge of Financial Instruments. The bedrock of a financially successful relationship between the client and the financial provider starts with correct assessment of their Risk Tolerance. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details2" class="container-fluid f-details color2-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><i class="fa fa-3x fa-briefcase wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Asset Alocation</div>
+        <div class="feature-text"> Asset Allocation – Financial planning module that allows the clients to set customisable Goal based investing preferences. Based on client inputs, the algorithm will provide optimised allocations which have been derived from time tested portfolio theories. These results would be linked to the clients Risk profile and would enable the client to run various scenarios, while providing real time portfolio feedback to changes in the various input parameters. Our competitive advantage is in not limited to providing a client with the most efficient portfolio based on their asset allocation, but developing products that would help create “Alpha” for clients under different market conditions. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details3" class="container-fluid f-details color3-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><i class="fa fa-3x fa-address-book wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Profolio Creator</div>
+        <div class="feature-text"> Standalone Portfolio creation Module that provides the B2B clients with various proprietary investing instruments that are being developed by our in-house team of Research Analyst along with our Data Science team that combines Machine Learning and AI with predictive intelligence. Portfolio creation will be based on the clients risk taking appetite, their understanding of the risk and reward on each of the asset classes, and their Goal and Investment horizon. Our in-house Algorithm engine will present various what-if scenarios with varying degree of risk that will allow an informed Relationship Manager, or an informed client to select their risk-reward portfolio. Portfolio creator module will also help auto select for clients that are not as informed other categories of clients. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details4" class="container-fluid f-details color4-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><i class="fa fa-3x fa-line-chart wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Portfolio Rebalancer</div>
+        <div class="feature-text"> Portfolio rebalancing module which includes the ability to rebalance the client’s portfolio. Rebalancing is a tool that is used to ensure that given market volatility and swings, a client’s portfolio does not get too swayed to a particular asset class, and is in alignment with the original asset allocation that was picked for or selected by the client. The Portfolio Rebalancing Module can be setup to include Fixed Period Rebalancing or Dynamic Rebalancing as per the client’s preference. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details5" class="container-fluid f-details color5-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+          <div class="feature-icon"><i class="fa fa-3x fa-address-book wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Portfolio Tax Loss Harvester</div>
+        <div class="feature-text"> Portfolio Tax Loss Harvester is a standalone module that allows clients of our B2B partners to minimize their tax outflows by either buying or selling and settling out profits / loss between Security & asset class with another. This allows their clients to stay financially prudent with regard to their tax obligations. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details6" class="container-fluid f-details color6-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><i class="fa fa-3x fa-id-card-o wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Client Onboarding</div>
+        <div class="feature-text"> Standalone Onboarding module which is a paperless solution allowing our B2B clients to effectively onboard their clients efficiently, while maintaining stringent compliance and KYC/AML regulatory checks. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details7" class="container-fluid f-details color7-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><i class="fa fa-3x fa-handshake-o wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">Client Engagement</div>
+        <div class="feature-text"> Standalone Digital Engagement module that provides B2B clients with access to consolidated Analytics, provide content management for Social Media platforms, CRM for Lead generation and conversion tracking. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="feature-details8" class="container-fluid f-details color8-bg hide-f-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="feature-icon"><i class="fa fa-3x fa-globe wow bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn; color:white;"></i></div>
+        <div class="feature-title">All-in-One White Label Solution</div>
+        <div class="feature-text"> The All-in-One is a complete solution that will encapsulate all the modules along with execution capabilities, and can be used across the spectrum of clients. </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="info1" class="container-fluid info">
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-8 info-text">
+        	<h2 class="info-color1">Cloud Host that made easy</h2>
+            <ul class="fa-ul">
+            	<li>
+                <i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+                <li><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+            </ul>
+        </div>
+        <div class="col-md-4 info-image">
+        	<img src="images/computer.png" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id="info2" class="container-fluid info">
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-4 info-image">
+        	<img src="images/mobile.png" alt="">
+        </div>
+    	<div class="col-md-8 info-text">
+        	<h2 class="info-color2">Cloud Host that made easy</h2>
+            <ul class="fa-ul">
+            	<li><i class="fa-li fa fa-circle-thin info-color2"><i class="fa fa-check info-color2"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+                <li><i class="fa-li fa fa-circle-thin info-color2"><i class="fa fa-check info-color2"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+<div id="info3" class="container-fluid info">
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-8 info-text">
+        	<h2 class="info-color3">Cloud Host that made easy</h2>
+            <ul class="fa-ul">
+            	<li><i class="fa-li fa fa-circle-thin info-color3"><i class="fa fa-check info-color3"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+                <li><i class="fa-li fa fa-circle-thin info-color3"><i class="fa fa-check info-color3"></i></i>Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla nisl blandit</li>
+            </ul>
+        </div>
+        <div class="col-md-4 info-image">
+        	<img src="images/contact.png" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id="testimonials" class="container-fluid">
+  <div class="container">
+    <div class="row">
+    	<div class="col-xs-12 message-icon-holder">
+        	<div class="message-icon">
+            	<div class="message-icon-body accent-color-bg">...</div>
+                <div class="message-icon-arrow accent-color-border"></div>
+            </div>
+        </div>
+        <div class="col-xs-12 testimonial-text-holder">
+        	<div class="testimonial-text t1 accent-color-text">
+            	<p>U.R.Bhat is one of India's well known investment managers having managed foreign institutional investments in Indian equities for more than two decades. He was the Chief Investment Officer of Jardine Fleming in India for 7 years, which subsequently became a part of JP Morgan, advising the India dedicated funds of the Flemings group. He joined the Dalton group, UK in 2005 to lead their entry into India and advising foreign institutional investors investing in India. He has been closely involved in formulating policies for benchmark indices for the Stock Exchange, Mumbai as a member of its Index Committee. He is also on the board of several companies and institutions including Banks and Mutual Funds. U.R.Bhat is a M.Sc. from Indian Institute of Technology and is a Fellow of the Chartered Institute of Bankers, London. </p>
+            </div>
+            <div class="testimonial-text t2 accent-color-text testimonial-text-hide">
+            	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            </div>
+            <div class="testimonial-text t3 accent-color-text testimonial-text-hide">
+            	<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,</p>
+            </div>
+            <div class="testimonial-text t4 accent-color-text testimonial-text-hide">
+            	<p>nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            </div>
+            <div class="testimonial-text t5 accent-color-text testimonial-text-hide">
+            	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="col-xs-12">
+        	 <div class="people-slider">
+          		<div class="person-details person-details-show" data-num="1">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/u-r-bhat.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">U.R.Bhat</div>
+                        <div class="person-title">Director & Chief Investment Strategist</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="2">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/arindam-ghosh.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">ARINDAM GHOSH</div>
+                        <div class="person-title">Director & COO</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="3">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/unmesh-bhatija.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">UNMESH BHATIJA</div>
+                        <div class="person-title">Director & COO</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="4">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/sunnu-engineer.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">DR. SUNNU ENGINEER</div>
+                        <div class="person-title">Chief Data Scientist</div>
+                    </div>
+                </div>
+                <div class="person-details" data-num="5">
+                	<div class="person-image-holder">
+                		<img class="person-image" src="images/jitendra-gupta.jpg" alt="">
+                    </div>
+                    <div class="person-details-holder">
+                    	<div class="person-name">JITENDRA GUPTA</div>
+                        <div class="person-title">Chairman Advisory Board</div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+    </div>
+  </div>
+</div>
+<div id="contact" class="container-fluid accent-color-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 row-title"> Contact Us </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-5">
+        <div class="sub-title">India Office</div>
+        <p> Finaureus Pvt. Ltd.<br>
+            Plot no. 34/2, Rajiv Gandhi Infotech Park – Phase 1,<br>
+            Hinjewadi, Pune 411 057<br>
+            India. </p>
+        <p><i class="fa fa-phone"></i> Phone: +91 (20) 661 43 400<br>
+         <i class="fa fa-fax"></i> Fax: +91 (20) 661 43 500 <br>
+         <i class="fa fa-envelope"></i>  Email: info@finaureus.com </p>
+      </div>
+      <div class="col-sm-7">
+        <form id="contactform" method="post" action="mailer.php">
+            <div class="form-items-holder">
+                <div><input type="text" id="name" name="name" placeholder="Name" required></div>
+                <div><input type="email" id="email" name="email" placeholder="Email" required></div>
+                <div class="form-label">Message</div>
+                <div><textarea id="message" name="message" required></textarea></div>
+                <div class="ajax-button">
+                   <div class="fa fa-check done"></div>
+            	   <div class="fa fa-close failed"></div>
+                   <input id="submit" type="submit" value="Send It">
+                </div>
+                <div id="form-messages"></div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="js/slick.min.js"></script> 
+<script src="js/createjs.min.js"></script> 
+<script src="js/logo.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    $(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 50) {
+        $('.menu').addClass('fixed');
+    } else {
+        $('.menu').removeClass('fixed');
+    }
+});
+</script>
+
+<script type="text/javascript">
+    $(function() { var logo = $(".lrg-logo");  var canvas = $("#logo-canvas"); var menu = $(".menu");  $(window).scroll(function() {
+var scroll = $(window).scrollTop();
+
+    if (scroll >= 500) {
+      if(!logo.hasClass("sml-logo")) {
+        $(".menu").css("backgroundColor", "white");
+        logo.hide();
+        canvas.hide();
+        $("img").hide();
+        logo.removeClass('lrg-logo').addClass("sml-logo").fadeIn( "slow");
+      }
+    } else {
+      if(!logo.hasClass("lrg-logo")) {
+        $(".menu").css({'backgroundColor':'white', 'opacity':'0.9'});
+        logo.show();
+        canvas.show();  
+        $("img").show();
+        logo.removeClass("sml-logo").addClass('lrg-logo').fadeIn( "slow");
+      }
+    }
+
+});
+});
+</script>
+</body>
+</html>
