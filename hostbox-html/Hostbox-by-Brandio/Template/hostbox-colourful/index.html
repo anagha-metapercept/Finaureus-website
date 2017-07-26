@@ -1,0 +1,689 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>Robo@work</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/blue.css">  
+<link rel="stylesheet" type="text/css" href="css/components.css"> 
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.carousel.css"> 
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.theme.default.min.css">
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.transitions.css">
+
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/purple-theme.css">
+    
+</head>
+
+<body onload="init();">
+<div id="top-content" class="container-fluid">
+  <div class="color-overlay accent-color-bg"></div>
+  <!--div class="container"-->
+  <header id="home" class="header-wrap">
+				<div class="slide-object-panel">
+					<div class="slide-object-container">
+						<div class="slide-object money-bank hidden"></div>
+						<div class="slide-object idea"></div>
+						<div class="slide-object bag hidden"></div>
+						<div class="slide-object phone hidden"></div>
+						<div class="slide-object emp-id hidden"></div>
+						<div class="slide-object line-chart"></div>
+						<div class="slide-object book"></div>
+						<div class="slide-object time-money"></div>
+						<div class="slide-object metro-city hidden"></div>
+						<div class="slide-object grow-chart"></div>
+					</div>
+				</div>
+
+				<div id="Raw-graph" style=" margin: -30px auto;"></div>
+    <div class="row header-content">
+      <div class="col-xs-12 text-center">
+        <div class="header-text-1"> 
+          <!--div class="word">Affordable</div-->
+        </div>
+        <div class="header-text-2">CLOUD BASED</div>
+		<div class="header-text-3">ROBO ADVISORY PLATFORM</div>
+        <div class="header-text-4">Coming Soon...
+        </div>
+        <a href="#"><div class="signup-button">Get Started</div></a>
+      </div>
+    </div>
+	</header>
+	
+  
+  <nav id="mainNav" class="navbar navbar-fixed-top" role='navigation'>
+			<div class="container-fluid">
+				<div id="menuToggle">
+				<!--
+				A fake / hidden checkbox is used as click reciever,
+				so you can use the :checked selector on it.
+				-->
+				<input type="checkbox" />
+
+				<!--
+				Some spans to act as a hamburger.
+
+				They are acting like a real hamburger,
+				not that McDonalds stuff.
+				-->
+				<span></span>
+				<span></span>
+				<span></span>
+
+				<!--
+				Too bad the menu has to be inside of the button
+				but hey, it's pure CSS magic.
+				-->
+				<ul id="menu">
+					<a href="#home"><li>Home</li></a>
+					<a href="#about"><li>About Us</li></a>
+					<a href="#solutions"><li>Solutions</li></a>
+					<a href="#RwTeam"><li>Our Team</li></a>
+					<a href="#contact"><li>Contact Us</li></a>
+				</ul>
+				</div>
+				
+			</div>
+        <!-- /.container-fluid -->
+    </nav>
+	
+  
+</div>
+<!-- About Us section -->
+<div class="container-fluid">
+<section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                   <div class="container-fluid"><h2 class="section-heading text-center">About Us</h2>
+				    <hr class="light">
+				   </div>
+						<div class="col-lg-7 col-md-7 col-sm-7 about">
+							<div class="text-center roboface">
+								<span id="eye"><i class="fa fa-circle"></i> <i class="fa fa-circle"></i></span>
+							<div class="lid">o</div></div>                    
+							
+							<p class="about_us">Finaureus technologies Private Limited has been formed with the objective of building a Robo - Investment advisory platform which combines big data analytics, artificial intelligence and machine learning with deep insights into Investment services to offer disruptive and innovative end-to-end solutions for B2B and B2C segments. The Investment advisory platform offers robo-advisory through automated and low-cost investment and financial advisory services through web and mobile platforms.</p>
+							<p class="about_us">We enable our Clients democratize investment advice by creating bespoke digital propositions that provides personalised & timely insights, smart financial planning, automated & personalised investment management solutions at a fraction of the current operational cost.</p>
+							<p class="about_us">Our solutions facilitate our partners achieve a high level of efficiency in building long term trust and deepening client engagement, while leaving the core task of providing intelligent and data driven investment solutions to us. </p>
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-5 about">
+							<div class="about_us_image">
+								<img src="images/financial-analysis.jpg" class="img img-responsive about_img" alt="" align="center">
+							</div>
+						</div>
+
+                </div>
+            </div>
+        </div>
+</section>
+</div>
+
+     <!--section id="solutions" class="modules-bg"-->
+	
+
+ <section id="solutions" class="ember-view even-more">
+        <div class="container-fluid">
+         <!--div class="wrapper"-->
+            <header class="header-wrap section-header"><h2 class="section-heading">Solutions</h2> </header>
+                  <div class="slide-object-panel">
+                        <div class="slide-object-container">
+                            <div class="slide-object money-bank hidden"></div>
+                            <div class="slide-object idea"></div>
+                            <div class="slide-object bag hidden"></div>
+                            <div class="slide-object phone hidden"></div>
+                            <div class="slide-object emp-id hidden"></div>
+                            <div class="slide-object line-chart"></div>
+                            <div class="slide-object book"></div>
+                            <div class="slide-object time-money"></div>
+                            <div class="slide-object metro-city hidden"></div>
+                            <div class="slide-object grow-chart"></div>
+                        </div>
+                    </div>
+
+				<div id="Raw-graph"></div>
+         
+           <div class="container">
+              <div class="row upper-div">
+                <div class="col-md-3">
+           <!-- flip-to-top or flip-to-bottom -->
+                         <div class="cube flip-to-top">
+                          <div class="default-state">
+                                <span>
+                                  <i class="fa fa-4x fa-exclamation-triangle bounceIn module-icon-color" style="visibility: visible;animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                </span>
+                                <h4>Risk Profiler</h4>
+                          </div>
+                          <div class="active-state">
+                              <p>Risk Profiler module that provides immediate assessment of a clients’ Risk tolerance.</p>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                            <span>
+                                <i class="fa fa-4x fa-briefcase bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                            </span>
+                              <h4>Asset Allocation</h4>
+                          </div>
+                          <div class="active-state">
+                              <p>Module that allows the clients to set customisable Goal based investing preferences.</p>
+                        </div>
+                        </div>
+                  </div>
+                    <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                              <span>
+                                 <i class="fa fa-4x fa-address-book bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                              </span>
+                                <h4>Portfolio Creator</h4>                       
+                          </div>
+                          <div class="active-state">
+                              <p class="description">Standalone Portfolio creation Module that provides the B2B clients with various proprietary investing instruments.</p>
+                        </div>
+                        </div>
+                  </div>
+                     <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                                <span>
+                                  <i class="fa fa-4x fa-line-chart bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                </span>
+                                <h4>Portfolio Rebalancer</h4>
+                          </div>
+                          <div class="active-state">
+                             <p>Portfolio rebalancing module which includes the ability to rebalance the client’s portfolio.</p>
+                        </div>
+                        </div>
+                  </div>
+                </div>
+            
+                <div class="row upper-div">
+                <div class="col-md-3">
+           <!-- flip-to-top or flip-to-bottom -->
+                       <div class="cube flip-to-top">
+                          <div class="default-state">
+                                <span>
+                                      <i class="fa fa-4x fa-inr bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                </span>
+                              <h4>Portfolio Tax Loss Harvester</h4>
+                          </div>
+                          <div class="active-state">
+                               <p>It is a standalone module that allows clients of our B2B partners to minimize their tax outflows.</p>
+                        </div>
+                        </div>   
+                  </div>
+                  <div class="col-md-3">
+                       <div class="cube flip-to-top">
+                          <div class="default-state">
+                                <span>
+                                      <i class="fa fa-4x fa-id-card-o bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                </span>
+                                    <h4>Client Onboarding</h4>
+                          </div>
+                          <div class="active-state">
+                                 <p>It is a paperless solution allowing our B2B clients to effectively onboard their clients efficiently.</p>
+                          </div>
+                        </div>
+                       
+                  </div>
+                    <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                             <span>
+                                  <i class="fa fa-4x fa-handshake-o bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                             </span>
+                            <h4>Client Engagement</h4>
+                            
+                          </div>
+                          <div class="active-state">
+                               <p >It provides B2B clients with access to consolidated Analytics.</p>
+                        </div>
+                        </div>
+                  </div>
+                     <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                            <span>
+                                <i class="fa fa-4x fa-globe bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                            </span>
+                                <h4>All-in-One White Label Solution</h4>
+                          </div>
+                          <div class="active-state">
+                              <p>It will encapsulate all the modules along with execution capabilities.</p>
+                        </div>
+                  </div>
+                </div>
+             </div>
+             
+            <!--hr class="light">
+              <ol class="list">
+                <li>
+                <div id="ember709" class="ember-view icon-list-item list-item-0 align-icon-top">
+                    <span class="item-icon">
+                      <i class="fa fa-5x fa-exclamation-triangle bounceIn module-icon-color" style="visibility: visible;animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                    </span>
+                    <aside class="item-content">
+                      <header>
+                        <h3 class="headline">Risk Profiler</h3>
+                      </header>
+                      <p class="description">Set up a recurring daily, weekly or monthly investment.</p>
+                    </aside></div>
+                  </li>
+                  <li>
+                    <div id="ember711" class="ember-view icon-list-item list-item-1 align-icon-top">
+                        <span class="item-icon">
+                            <i class="fa fa-3x fa-briefcase bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                        </span>
+                        <aside class="item-content">
+                          <header>
+                            <h3 class="headline">Asset Allocation</h3>
+                          </header>
+                          <p class="description">Boost your account anytime with $5 or $50,000.</p>
+                        </aside>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="ember713" class="ember-view icon-list-item list-item-2 align-icon-top">
+                    <span class="item-icon">
+                         <i class="fa fa-3x fa-address-book bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                    </span>
+                    <aside class="item-content">
+                      <header>
+                        <h3 class="headline">Portfolio Creator</h3>
+                      </header>
+                      <p class="description">We’re working with brands to find you money!</p>
+                    </aside></div>
+                  </li>
+                  <li>
+                    <div id="ember715" class="ember-view icon-list-item list-item-3 align-icon-top">
+                        <span class="item-icon">
+                              <i class="fa fa-3x fa-line-chart bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                        </span>
+                        <aside class="item-content">
+                          <header>
+                            <h3 class="headline">Portfolio Rebalancer</h3>
+                          </header>
+                          <p class="description">Grow your account when your friends start investing.</p>
+                        </aside>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="ember717" class="ember-view icon-list-item list-item-4 align-icon-top">
+                        <span class="item-icon">
+                              <i class="fa fa-3x fa-inr bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                        </span>
+                        <aside class="item-content">
+                          <header>
+                            <h3 class="headline">Portfolio Tax Loss Harvester</h3>
+                          </header>
+                          <p class="description">Grow your account when your friends start investing.</p>
+                        </aside>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="ember719" class="ember-view icon-list-item list-item-5 align-icon-top">
+                        <span class="item-icon">
+                              <i class="fa fa-3x fa-id-card-o bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                        </span>
+                        <aside class="item-content">
+                          <header>
+                            <h3 class="headline">Client Onboarding</h3>
+                          </header>
+                          <p class="description">Grow your account when your friends start investing.</p>
+                        </aside>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="ember721" class="ember-view icon-list-item list-item-6 align-icon-top">
+                        <span class="item-icon">
+                              <i class="fa fa-3x fa-handshake-o bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                        </span>
+                        <aside class="item-content">
+                          <header>
+                            <h3 class="headline">Client Engagement</h3>
+                          </header>
+                          <p class="description">Grow your account when your friends start investing.</p>
+                        </aside>
+                    </div>
+                  </li>
+                  <li>
+                    <div id="ember723" class="ember-view icon-list-item list-item-7 align-icon-top">
+                        <span class="item-icon">
+                              <i class="fa fa-3x fa-globe bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                        </span>
+                        <aside class="item-content">
+                          <header>
+                            <h3 class="headline">All-in-One White Label Solution</h3>
+                          </header>
+                          <p class="description">Grow your account when your friends start investing.</p>
+                        </aside>
+                    </div>
+                  </li>              
+          </ol-->
+        <!--/div-->
+        </div>
+</section>
+
+
+<div class="container-fluid">
+<!--section id="RwTeam">
+        <div class="container-fluid">
+            <div class="text-center">
+                <h2 class="section-heading">Our Team</h2>
+                <hr class="light">
+                <h4 class="team-header">
+                    The Finaureus team has an unique blend of entrepreneurs with outstanding track record and deep domain expertise across Finance &amp; Investments, Big Data analytics and Technology.
+                </h4>
+            </div>
+        
+			<div class="col-sm-12 col-md-12 col-lg-12 team-photo">
+			   <div class="container">
+					<div class="row">
+						
+						<div class="col-sm-6 col-md-3 col-lg-2 image">
+						   	<img src="images/u-r-bhat.jpg"/>
+							<div class="overlay"><h5>U.R. Bhat</h5>
+							<h6>Director & Chief Investment Strategist</h6>
+							U.R.Bhat is one of India's well known investment managers having managed foreign institutional investments in Indian equities for more than two decades.</div>
+						  
+						</div>
+						
+						<div class="col-sm-6 col-md-3 col-lg-2 image"><img src="images/arindam-ghosh.jpg"/>
+							<div class="overlay"><h5>Arindam Ghosh</h5>
+							<h6>Director & CEO</h6>Arindam has over 2 decades of leadership experience in financial services in India and Asia-Pacific region across Asset Management, Alternate Funds, NBFCs, Investment Advisory & Wealth Management.</div>
+						</div>
+						
+						<div class="col-sm-6 col-md-3 col-lg-2 image"><img src="images/unmesh-bhatija.jpg"/>
+							<div class="overlay"><h5>Unmesh Bhatija</h5>
+							<h6>Director & COO</h6>Unmesh has more than 28 years of experience in building and growing organisations in the technology space.</div>
+						</div>
+						
+						<div class="col-sm-6 col-md-3 col-lg-2 image"><img src="images/sunnu-engineer.jpg"/>
+							<div class="overlay"><h5>Dr. Sunnu Engineer</h5>
+							<h6>Chief Data Scientist</h6>Sunu is responsible for Product Engineering and data architecture. He has over 19 years of experience in building products for Business Analytics, Energy solutions and Fraud detection.</div>
+						</div>
+					   
+						<div class="col-sm-6 col-md-3 col-lg-2 image"><img src="images/jitendra-gupta.jpg"/>
+							<div class="overlay"><h5>Jitendra Gupta</h5>
+							<h6>Chairman Advisory Board</h6>Jitendra founded Citrus Payment Solutions Private Limited in 2011 and serves as its Chief Executive Officer and Managing Director.</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+      </div>
+</section-->
+<section id="team" class="">
+			<div class="container">
+				<div class="row header">
+					<div class="col-md-10 col-md-offset-1">
+						<!-- Big Icon Starts -->
+						<div class="icon hi-icon-color hi-icon-effect animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="100">
+							<span class="hi-icon"><i class="fa fa-users"></i></span>					
+						</div>
+						<!-- Big Icon Starts -->
+						<h2 class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200">CREATIVE TEAM</h2>
+						<div class="description animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="300">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
+					</div>
+				</div>
+				<!-- Team Carousel Starts -->
+				<div class="contents team-carousel animated owl-carousel owl-theme fadeInUp visible" data-animation="fadeInUp" data-animation-delay="500" style="display: block; opacity: 1;">
+					<!-- Team Member Starts -->
+					<div class="owl-wrapper-outer"><div class="owl-wrapper" style="display: block; width: 3420px; left: 0px; transition: all 800ms ease; transform: translate3d(-570px, 0px, 0px);"><div class="owl-item" style="width: 285px;"><div class="block">
+						<div class="pic">
+							<img src="images/u-r-bhat.jpg" alt="img11" class="img-responsive">
+						</div>
+						<div class="name">John Doe</div>
+						<div class="designation">CEO/Founder</div>
+						<div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fameeesss ac turpis egestas.</div>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div></div><div class="owl-item" style="width: 285px;"><div class="block">
+						<div class="pic">
+							<img src="images/u-r-bhat.jpg" alt="img11" class="img-responsive">
+						</div>
+						<div class="name">Janny Doe</div>
+						<div class="designation">Director</div>
+						<div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fameeesss ac turpis egestas.</div>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div></div><div class="owl-item" style="width: 285px;"><div class="block">
+						<div class="pic">
+							<img src="images/u-r-bhat.jpg" alt="img11" class="img-responsive">
+						</div>
+						<div class="name">John Doe</div>
+						<div class="designation">Web Developer</div>
+						<div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fameeesss ac turpis egestas.</div>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div></div><div class="owl-item" style="width: 285px;"><div class="block">
+						<div class="pic">
+							<img src="images/u-r-bhat.jpg" alt="img11" class="img-responsive">							
+						</div>
+						<div class="name">Janny Doe</div>
+						<div class="designation">Graphic Design</div>
+						<div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fameeesss ac turpis egestas.</div>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div></div><div class="owl-item" style="width: 285px;"><div class="block">
+						<div class="pic">
+							<img src="images/u-r-bhat.jpg" alt="img11" class="img-responsive">							
+						</div>
+						<div class="name">John Doe</div>
+						<div class="designation">Marketing Manager</div>
+						<div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fameeesss ac turpis egestas.</div>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div></div><div class="owl-item" style="width: 285px;"><div class="block">
+						<div class="pic">
+							<img src="images/u-r-bhat.jpg" alt="img11" class="img-responsive">							
+						</div>
+						<div class="name">Janny Doe</div>
+						<div class="designation">Model/Media Manager</div>
+						<div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fameeesss ac turpis egestas.</div>
+						<div class="social-icons">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div></div></div></div>
+					<!-- Team Member Ends -->
+					<!-- Team Member Starts -->
+					
+					<!-- Team Member Ends -->
+					<!-- Team Member Starts -->
+					
+					<!-- Team Member Ends -->
+					<!-- Team Member Starts -->
+					
+					<!-- Team Member Ends -->
+					<!-- Team Member Starts -->
+					
+					<!-- Team Member Ends -->
+					<!-- Team Member Starts -->
+					
+					<!-- Team Member Ends -->
+				<div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div></div></div></div>
+				<!-- Team Carousel Ends -->
+			</div>
+		</section>    
+    
+</div>
+
+<!-- Contact Form -->
+<section id="contact">
+	<div class="container-fluid">
+        <div class="row">
+           <div class="text-center">
+                <h2 class="section-heading">Contact Us </h2>
+          
+            </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="sub-title">India Office</div>
+            <p> Finaureus Technologies Pvt. Ltd.<br>
+                Plot no. 34/2, Rajiv Gandhi Infotech Park – Phase 1,<br>
+                Hinjewadi, Pune 411 057<br>
+                India. </p>
+            <p><i class="fa fa-phone"></i> Phone: +91 (20) 661 43 400<br>
+             <i class="fa fa-fax"></i> Fax: +91 (20) 661 43 500 <br>
+             <i class="fa fa-envelope"></i>  Email: info@finaureus.com </p>
+             <div class="col-xs-8 social-icons">
+                <a onclick="" class="btn btn-social-icon btn-lg btn-facebook"><i class="fa fa-facebook"></i></a>
+                <a onclick="" class="btn btn-social-icon btn-lg btn-twitter"><i class="fa fa-twitter"></i></a>
+                <a onclick="" class="btn btn-social-icon btn-lg btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                <a onclick="" class="btn btn-social-icon btn-lg btn-linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-7">
+            <form id="contactform" method="post" action="mailer.php">
+                <div class="form-items-holder">
+                    <div><input type="text" id="name" name="name" placeholder="Name" required></div>
+                    <div><input type="email" id="email" name="email" placeholder="Email" required></div>
+                    <div class="form-label">Message</div>
+                    <div><textarea id="message" name="message" required></textarea></div>
+                    <div class="ajax-button">
+                       <div class="fa fa-check done"></div>
+                       <div class="fa fa-close failed"></div>
+                       <input id="submit" type="submit" value="Send It">
+                    </div>
+                    <div id="form-messages"></div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+	  </div>
+</section>
+<footer class="footer">
+<div class="container">
+	<div class="well-sm pull-left">
+		 ©2017 Finaureus Technologies Pvt. Ltd.
+	</div>
+	<div class="well-sm pull-right">
+		<a href="#">Privacy Policy</a>
+	</div>
+	
+</div>
+</footer>
+
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="js/slick.min.js"></script> 
+<script src="js/createjs.min.js"></script> 
+<script src="js/logo.js"></script>
+<script src="owlcarousel/owl.carousel.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });    
+</script>
+<script>
+    $(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 50) {
+        $('.menu').addClass('fixed');
+    } else {
+        $('.menu').removeClass('fixed');
+    }
+});
+</script>
+   <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+<script src="js/graph.js"></script>
+	<!-- Include lazylinepainter -->
+	<script src="js/jquery.lazylinepainter-1.5.1.js"></script>
+	<script type="text/javascript">
+		 /* 
+		 Setup and Paint your lazyline! 
+		 */ 
+		 
+		 $(document).ready(function(){ 
+		 $('#Raw-graph').lazylinepainter( 
+		 {
+			"svgData": pathObj,
+			"strokeWidth": 1.5,
+			"strokeColor": "#c5c5c5"
+		}).lazylinepainter('paint'); 
+		 });
+ 		</script>
+<script type="text/javascript">
+ /*   $(function() { var logo = $(".lrg-logo");  var canvas = $("#logo-canvas"); var menu = $(".menu");  $(window).scroll(function() {
+var scroll = $(window).scrollTop();
+
+    if (scroll >= 500) {
+      if(!logo.hasClass("sml-logo")) {
+        $(".menu").css("backgroundColor", "white");
+        logo.hide();
+        canvas.hide();
+        $("img").hide();
+        logo.removeClass('lrg-logo').addClass("sml-logo").fadeIn( "slow");
+      }
+    } else {
+      if(!logo.hasClass("lrg-logo")) {
+        $(".menu").css({'backgroundColor':'white', 'opacity':'0.9'});
+        logo.show();
+        canvas.show();  
+        $("img").show();
+        logo.removeClass("sml-logo").addClass('lrg-logo').fadeIn( "slow");
+      }
+    }
+
+});
+});*/
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Fonts Montserrat and Raleway */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+/* Bootstrap v3.2.0 */
+@import url("bootstrap.min.css");
+
+/* Main Stylesheet */
+@import url("style.css");
+
+/* Slick css*/
+@import url("slick.css");
+    
+/* Default Color */
+@import url(purple-theme.css)
+@import url("blue.css");
+
+/* Icons Hover Effect Stylesheet */
+@import url("components.css");
+
+/* Items Animation */
+@import url("animate.css");
+@import url("animate.min.css");
+
+/* Owl Carousel */
+@import url("../owlcarousel/owl.carousel.css");
+@import url("../owlcarousel/owl.theme.css");
+/*@import url(../owlcarousel/owl.theme.default.css);*/
+@import url("../owlcarousel/owl.transitions.css");
+
+/* FontAwesome */
+@import url("font-awesome.min.css");
+
