@@ -32,7 +32,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800);
 
 html{
-  background: url(../images/slide-bg.jpg) no-repeat center center fixed; 
+  /*background: url(../images/slide-bg.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,8 +51,8 @@ html{
 }
 /*---- Accent Color ------*/
 .accent-color-bg{
-	/*background-color:#4d2692;*/
-	background-image:url(../images/slide-bg.jpg);
+	background-color:teal;
+	/*background-image:url(../images/slide-bg.jpg);*/
 }
 .accent-color-text{
 	color:#4d2692;
@@ -726,7 +726,7 @@ header .header-content .header-content-inner p {
     font-size: 6em;
     font-weight: 500;
    /* text-transform: uppercase;*/
-    color: #cb6c87!important;
+    color: #4ab67d!important;
 	
 }
 #top-content .header-text-4{
@@ -742,9 +742,9 @@ header .header-content .header-content-inner p {
 	margin-top:30px;
 	margin-bottom:20px;
 	text-transform:uppercase;
-	border:2px solid #000000;
+	border:2px solid #fff;
 	border-radius:12px;
-	background-color:rgba(255,255,255,0.0);
+	background-color:#4ab67d!important;
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-right:45px;
@@ -754,7 +754,7 @@ header .header-content .header-content-inner p {
 	font-weight:500;
 }
 a  > .signup-button:hover{
-	background-color:#4ab67d!important;
+	background-color:rgba(255,255,255,0.0)!important;
 	border:2px solid #ffffff;
 	color:#ffffff;
 }
@@ -777,7 +777,7 @@ section#about {
 .about_us{
     padding-top: 13px;
 	font-size:17px;
-	font-weight:400;
+	font-weight:600;
 	text-align: justify;
 }
 .about_us_image{
@@ -795,16 +795,23 @@ section#about {
 }
 
 .about{
-    color: white;
+    color: black;
 }
 
 #about .section-heading{
-	color:white!important;
+	color:black;
+}
+hr.light{
+    border-top: 1px solid #000!important;
 }
 section#about{
-	background-color: steelblue;
+	
 	padding-top:20px;
 
+}
+
+.about_section {
+    background-image: url(../images/slide-bg.jpg);
 }
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
@@ -991,7 +998,7 @@ a img, img {
 }*/
 /* Container box to set the sides relative to */
 #solutions {
-    background-image:url(../images/slide-bg.jpg);
+    background-image:url(../images/solution_bg.jpg);
 	background-position:top center;
 	background-size:cover;
 	position:relative;
@@ -1071,7 +1078,7 @@ a img, img {
   border-radius: 5px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #4ab67d;
+  color: #18c3cc;
   
   -webkit-transition: background 250ms ease;
   -moz-transition: background 250ms ease;
@@ -1079,11 +1086,11 @@ a img, img {
   transition: background 250ms ease;
 }
 .cube:hover .default-state {
-  background: #4ab67d;
+  background: #18c3cc;
     
 }
 .active-state {
-  background: #4ab67d;
+  background: #18c3cc;
     color: white;
     padding-top: 20px;
     text-transform: none;
@@ -1133,7 +1140,7 @@ a img, img {
 }
 .header h2 {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 1;
     margin-bottom: 10px;
@@ -1349,26 +1356,26 @@ text-shadow: none;
 /*------------------------------------------------------------------
 Contact Form
 -------------------------------------------------------------------*/
-#contact .form-control{
+#contact-form .form-control{
     border-radius: 0;
     min-height: 44px;
     opacity: 0.9;
 }
 
-#contact{
+#contact-form{
 	padding-bottom:0px;
     background-color: #024a4a;
 
 }
-#contact .section-heading{
+#contact-form .section-heading{
     color: #ffffff;
 }
 
-#contact .row-title{
+#contact-form .row-title{
 	color:#ffffff;
 }
-#contact .sub-title{
-	font-size:17px;
+#contact-form .sub-title{
+	font-size:15px;
 	color:#ffffff;
 	text-transform:uppercase;
 	border-bottom:1px solid #ffffff;
@@ -1376,12 +1383,12 @@ Contact Form
 	margin-bottom:30px;
 	display:inline-block;
 }
-#contact p{
+#contact-form p{
 	font-size:13px;
 	color:#ffffff;
 }
 
-#contact input[type=text],#contact input[type=email]{
+#contact-form input[type=text],#contact input[type=email]{
 	display:block;
 	width:100%;
 	background-color:transparent;
@@ -1412,7 +1419,7 @@ Contact Form
     /* IE 10+ */
     color: white;
 }
-#contact .form-label{
+#contact-form .form-label{
 	display:block;
 	width:100%;
 	color:#ffffff;
@@ -1421,7 +1428,7 @@ Contact Form
 	padding-bottom:17px;
 	text-transform:uppercase;
 }
-#contact textarea{
+#contact-form textarea{
 	display:block;
 	width:100%;
 	color:#ffffff;
@@ -1434,7 +1441,7 @@ Contact Form
 	outline:0;
 }
 
-#contact #submit{
+#contact-form #submit{
     text-transform: uppercase;
     display: inline-block;
     color: #ffffff;
@@ -1452,10 +1459,10 @@ Contact Form
     height: 40px;
     outline: 0;
 }
-#contact #submit:hover{
+#contact-form #submit:hover{
 	background-color:rgba(255,255,255,0.1);
 }
-#contact .loading{
+#contact-form .loading{
 	font-size:0 !important;
 	width:30px !important;
 	height:30px !important;
@@ -1476,6 +1483,225 @@ Contact Form
     margin-top: 7px !important;
 	background-color:transparent !important;
 }
+
+/*------New contact form css------*/
+/* ---------------------------------------------------------------------- CONTACT US STARTS ------------------ */
+.top-bottom-cut-grey {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    /*border-bottom: 20px solid #f6f6f6;
+    border-top: 20px solid #f6f6f6;*/
+}
+
+.parallax-8 {
+	color: black;
+	background-attachment: fixed;
+	/*background-image: url(../images/contact_bg3.jpg);*/
+    background-color: teal;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
+}
+section#contact {
+	padding-top: 0px;
+}
+#contact .contents {
+	margin-top: 30px;
+}
+#contact .header .description {
+    font-weight: 500;
+}
+#contact .address {
+	/*margin-top: 50px;*/
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 21px;
+	text-align: center;
+}
+#contact .address span {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 30px;
+}
+#contact .line-2 {
+	margin-top: 30px;
+}
+#contact .directions {
+	margin-top: 25px;
+}
+#contact .email {
+	margin-top: 30px;
+}
+#contact .address a {
+	color: #000; 
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#contact .address a:hover {
+	color: #000;
+	text-decoration: none;
+}
+#contact .form {
+	margin-top: 20px;
+	padding: 20px;
+	color: #000;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.6);
+	text-align: center;
+}
+#contact .form .heading {
+	color: #000;
+	font-size: 24px;
+	font-weight: 500;
+}
+#contact .form .input-group {
+	margin-top: 5px;
+}
+.form-control {
+	display: block;
+	width: 100%;
+	height: 50px;
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #000;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+#message_post {
+}
+.errorMessage {
+	color: #ff0000;
+	margin: 0px;
+	padding-bottom: 2px;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.successMessage {
+	color: #12d62d;
+	margin: 0px;
+	padding-bottom: 2px;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px
+}
+.btn-default {
+	color: #fff;
+	background-color: #00acec;
+	border-color: #00acec;
+}
+/* ---------------------------------------------------------------------- CONTACT US ENDS ------------------ */
+/*----------new contact ends here---------*/
+
+/* ---------------------------------------------------------------------- SOCIAL ICONS STARTS ------------------ */
+
+.parallax-7 {
+    color: black;
+    background-attachment: fixed;
+    background-image: url(../images/social_bg.png);
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+    background-size: cover;
+}
+section#social-icons {
+	padding-top: 0px;
+}
+#social-icons .contents {
+	margin-top: 30px;
+}
+#social-icons .social {
+	text-align: center;
+	margin-top: 30px;
+}
+#social-icons .social .icon {
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px!important;
+	color: #fff;
+	border: 4px solid #FFF;
+}
+#social-icons .social .icon:hover {
+	background-color: #00acec;
+}
+#social-icons .social .icon i {
+	font-size: 50px;
+	line-height: 1.7;
+}
+#social-icons .social h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+	margin-bottom: 2px;
+}
+#social-icons .social h2 a {
+	color: #fff;
+}
+#social-icons .social p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.facebook {
+	background-color: #3c599f
+}
+.twitter {
+	background-color: #00acec
+}
+.linkedin {
+	background-color: #017eb4
+}
+.dribbble {
+	background-color: #e04c86
+}
+.youtube {
+	background-color: #c00000
+}
+.behance {
+	background-color: #1478ff
+}
+#social-icons .bottom-cut-color {
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #00acec;
+	padding-bottom: 80px;
+}
+/* ---------------------------------------------------------------------- SOCIAL ICONS ENDS ------------------ */
 
 /*------------------------------------------------------------------
 			Footer Section
@@ -1955,7 +2181,7 @@ footer a:hover{
 	padding:0;
 	padding-top:17px;
 	padding-bottom:17px;
-	margin-bottom:10px;
+	/*margin-bottom:10px;*/
 	text-transform:uppercase;
 	outline:0;
 }

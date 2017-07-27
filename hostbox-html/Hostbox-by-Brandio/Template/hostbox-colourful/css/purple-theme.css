@@ -151,8 +151,8 @@
     opacity: 0.7;
 }
 .signup-button{
-	color:#000000;
-	border:2px solid #000000;
+	color:#fff;
+	border:2px solid #fff;
 	background-color:rgba(255,255,255,0.0);
 }
 .signup-button:hover{
@@ -328,19 +328,21 @@
 
 #contact input[type=text],#contact input[type=email]{
 	border-bottom:1px solid #ffffff;
-	color:#ffffff;
+	color:#000;
+    font-weight: 500;
 }
 #contact .form-label{
 	color:#ffffff;
 }
 #contact textarea{
-	color:#ffffff;
+	color:#000;
 	background-color:transparent;
 	border:1px solid #ffffff;
+    font-weight: 500;
 }
 
 #contact #submit{
-	color:#ffffff;
+	color:#000;
 	border:1px solid #ffffff;
 	background-color:rgba(255,255,255,0.0);
 }
