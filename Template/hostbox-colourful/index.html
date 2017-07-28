@@ -5,10 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
 <title>Robo@work</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/blue.css">  
+<link rel="stylesheet" type="text/css" href="css/purple-theme.css">
+<link rel="stylesheet" type="text/css" href="css/components.css"> 
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.carousel.css"> 
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.theme.css">
+<!--link rel="stylesheet" type="text/css" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.theme.default.min.css"-->
+<link rel="stylesheet" type="text/css" href="owlcarousel/owl.transitions.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/purple-theme.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css"/>
+
+    
 </head>
 
 <body onload="init();">
@@ -39,9 +52,7 @@
         </div>
         <div class="header-text-2">CLOUD BASED</div>
 		<div class="header-text-3">ROBO ADVISORY PLATFORM</div>
-        <div class="header-text-4">Coming Soon...
-        </div>
-        <a href="#"><div class="signup-button">Get Started</div></a>
+        <a href="#"><div class="signup-button">Coming Soon</div></a>
       </div>
     </div>
 	</header>
@@ -74,7 +85,7 @@
 					<a href="#home"><li>Home</li></a>
 					<a href="#about"><li>About Us</li></a>
 					<a href="#solutions"><li>Solutions</li></a>
-					<a href="#RwTeam"><li>Our Team</li></a>
+					<a href="#team"><li>Our Team</li></a>
 					<a href="#contact"><li>Contact Us</li></a>
 				</ul>
 				</div>
@@ -86,13 +97,13 @@
   
 </div>
 <!-- About Us section -->
-<div class="container-fluid">
+<div class="container-fluid about_section">
 <section id="about">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                    <div class="container-fluid"><h2 class="section-heading text-center">About Us</h2>
-				    <hr class="light">
+				    
 				   </div>
 						<div class="col-lg-7 col-md-7 col-sm-7 about">
 							<div class="text-center roboface">
@@ -117,16 +128,145 @@
 
      <!--section id="solutions" class="modules-bg"-->
 	
-<div class="container-fluid">
+
  <section id="solutions" class="ember-view even-more">
-         <div class="wrapper">
-          <header id="ember707" class="ember-view section-header"><h2 class="section-heading">Solutions</h2>
-			 
-        <!---->  
-        <p class="description"><!----></p>
-        </header>
-	<hr class="light">
-          <ol class="list">
+        <div class="container-fluid">
+         <!--div class="wrapper"-->
+            <header class="header-wrap section-header"><h2 class="section-heading">Solutions</h2> </header>
+                  <div class="slide-object-panel">
+                        <div class="slide-object-container">
+                            <div class="slide-object money-bank hidden"></div>
+                            <div class="slide-object idea"></div>
+                            <div class="slide-object bag hidden"></div>
+                            <div class="slide-object phone hidden"></div>
+                            <div class="slide-object emp-id hidden"></div>
+                            <div class="slide-object line-chart"></div>
+                            <div class="slide-object book"></div>
+                            <div class="slide-object time-money"></div>
+                            <div class="slide-object metro-city hidden"></div>
+                            <div class="slide-object grow-chart"></div>
+                        </div>
+                    </div>
+
+				<div id="Raw-graph"></div>
+         
+           <div class="container">
+              <div class="row upper-div">
+                <div class="col-md-3">
+           <!-- flip-to-top or flip-to-bottom -->
+                         <div class="cube flip-to-top">
+                          <div class="default-state">
+                                <span>
+                                  <i class="fa fa-4x fa-exclamation-triangle bounceIn module-icon-color" style="visibility: visible;animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                </span>
+                                <h4>Risk Profiler</h4>
+                          </div>
+                          <div class="active-state">
+                              <p>Risk Profiler module that provides immediate assessment of a clients’ Risk tolerance.</p>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                            <span>
+                                <i class="fa fa-4x fa-briefcase bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                            </span>
+                              <h4>Asset Allocation</h4>
+                          </div>
+                          <div class="active-state">
+                              <p>Module that allows the clients to set customisable Goal based investing preferences.</p>
+                        </div>
+                        </div>
+                  </div>
+                    <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                              <span>
+                                 <i class="fa fa-4x fa-address-book bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                              </span>
+                                <h4>Portfolio Creator</h4>                       
+                          </div>
+                          <div class="active-state">
+                              <p class="description">Standalone Portfolio creation Module that provides the B2B clients with various proprietary investing instruments.</p>
+                        </div>
+                        </div>
+                  </div>
+                     <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                                <span>
+                                  <i class="fa fa-4x fa-line-chart bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                </span>
+                                <h4>Portfolio Rebalancer</h4>
+                          </div>
+                          <div class="active-state">
+                             <p>Portfolio rebalancing module which includes the ability to rebalance the client’s portfolio.</p>
+                        </div>
+                        </div>
+                  </div>
+                </div>
+            
+                <div class="row upper-div">
+                <div class="col-md-3">
+           <!-- flip-to-top or flip-to-bottom -->
+                       <div class="cube flip-to-top">
+                          <div class="default-state">
+                                <span>
+                                      <i class="fa fa-4x fa-inr bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                </span>
+                              <h4>Portfolio Tax Loss Harvester</h4>
+                          </div>
+                          <div class="active-state">
+                               <p>It is a standalone module that allows clients of our B2B partners to minimize their tax outflows.</p>
+                        </div>
+                        </div>   
+                  </div>
+                  <div class="col-md-3">
+                       <div class="cube flip-to-top">
+                          <div class="default-state">
+                                <span>
+                                      <i class="fa fa-4x fa-id-card-o bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                                </span>
+                                    <h4>Client Onboarding</h4>
+                          </div>
+                          <div class="active-state">
+                                 <p>It is a paperless solution allowing our B2B clients to effectively onboard their clients efficiently.</p>
+                          </div>
+                        </div>
+                       
+                  </div>
+                    <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                             <span>
+                                  <i class="fa fa-4x fa-handshake-o bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                             </span>
+                            <h4>Client Engagement</h4>
+                            
+                          </div>
+                          <div class="active-state">
+                               <p >It provides B2B clients with access to consolidated Analytics.</p>
+                        </div>
+                        </div>
+                  </div>
+                     <div class="col-md-3">
+                        <div class="cube flip-to-top">
+                          <div class="default-state">
+                            <span>
+                                <i class="fa fa-4x fa-globe bounceIn module-icon-color" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;"></i>
+                            </span>
+                                <h4>All-in-One White Label Solution</h4>
+                          </div>
+                          <div class="active-state">
+                              <p>It will encapsulate all the modules along with execution capabilities.</p>
+                        </div>
+                  </div>
+                </div>
+             </div>
+             
+            <!--hr class="light">
+              <ol class="list">
                 <li>
                 <div id="ember709" class="ember-view icon-list-item list-item-0 align-icon-top">
                     <span class="item-icon">
@@ -229,13 +369,15 @@
                         </aside>
                     </div>
                   </li>              
-          </ol>
+          </ol-->
+        <!--/div-->
         </div>
+     </div>
 </section>
-</div>
 
+<section id="team">
 <div class="container-fluid">
-<section id="RwTeam">
+<!--section id="RwTeam">
         <div class="container-fluid">
             <div class="text-center">
                 <h2 class="section-heading">Our Team</h2>
@@ -282,11 +424,78 @@
 				</div>
 			</div>
       </div>
-</section>
-</div>
+</section-->
+<header class="header-wrap section-header"><h2 class="section-heading">Our Team</h2> </header>
 
+    <div class="container">
+    <div class="row row-size">
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/u-r-bhat.jpg" alt="">
+                <div class="team-content">
+                    <h3 class="title">U.R. Bhat</h3>
+                    <span class="post">Director & Chief Investment Strategist</span>
+                    <p class="description">U.R.Bhat is one of India's well known investment managers having managed foreign institutional investments in Indian equities for more than two decades.</p>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/arindam-ghosh.jpg" alt="">
+                <div class="team-content">
+                    <h3 class="title">Arindam Ghosh</h3>
+                    <span class="post">Director & CEO</span>
+                    <p class="description">Arindam has over 2 decades of leadership experience in financial services in India and Asia-Pacific region across Asset Management, Alternate Funds, NBFCs, Investment Advisory & Wealth Management.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/unmesh-bhatija.jpg" alt="">
+                <div class="team-content">
+                    <h3 class="title">Unmesh Bhatija</h3>
+                    <span class="post">Director & COO</span>
+                    <p class="description">Unmesh has more than 28 years of experience in building and growing organisations in the technology space.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+     <div class="row second row-size">
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/sunnu-engineer.jpg" alt="">
+                <div class="team-content">
+                    <h3 class="title">Dr. Sunnu Engineer</h3>
+                    <span class="post">Chief Data Scientist</span>
+                    <p class="description">Sunu is responsible for Product Engineering and data architecture. He has over 19 years of experience in building products for Business Analytics, Energy solutions and Fraud detection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/jitendra-gupta.jpg" alt="">
+                <div class="team-content">
+                    <h3 class="title">Jitendra Gupta</h3>
+                    <span class="post">Chairman Advisory Board</span>
+                    <p class="description">Jitendra founded Citrus Payment Solutions Private Limited in 2011 and serves as its Chief Executive Officer and Managing Director.</p>
+                    <!--ul class="social">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                        <li><a class="fa fa-youtube" href="#"></a></li>
+                    </ul-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>			
+
+</div>
+</section>
 <!-- Contact Form -->
-<section id="contact">
+<!--section id="contact-form">
 	<div class="container-fluid">
         <div class="row">
            <div class="text-center">
@@ -329,7 +538,104 @@
         </div>
       </div>
 	  </div>
+</section-->
+
+<section id="contact" class="parallax-8">
+			<div class="container top-bottom-cut-grey">
+			    <div class="row contents">
+                     <div class="col-md-10 col-md-offset-1 social-icons">
+                      <div><h2 class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200">Follow Us On</h2></div>
+                            <!-- Icon 1 Starts -->
+                            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-3 social animated fadeInRight visible" data-animation="flipInY" data-animation-delay="400">
+                                <div class="icon facebook"><i class="fa fa-facebook"></i></div>
+                            </div>
+                            <!-- Icon 2 Starts -->
+                            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-3 social animated fadeInRight visible" data-animation="flipInX" data-animation-delay="500">
+                                <div class="icon twitter"><i class="fa fa-twitter"></i></div>
+                            </div>
+                            <!-- Icon 3 Starts -->
+                            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-3 social animated fadeInRight visible" data-animation="flipInY" data-animation-delay="600">
+                                <div class="icon linkedin"><i class="fa fa-linkedin"></i></div>
+                            </div>
+                            <!-- Icon 4 Starts -->
+                            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-3 social animated fadeInRight visible" data-animation="flipInX" data-animation-delay="700">
+                                <div class="icon google-plus"><i class="fa fa-google-plus"></i></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+				
+				<!-- Contact Contents Starts -->
+				<div class="contents">
+					<div class="row">
+						<!-- Address Starts -->
+						<div class="address">
+                        <div class="row header">
+                            <div class="col-md-10 col-md-offset-1">
+                                <!-- Big Icon Starts -->
+                                <div class="icon hi-icon-color hi-icon-effect animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="100">
+                                    <span class="hi-icon"><i class="fa fa-envelope"></i></span>					
+                                </div>
+                                <!-- Big Icon Starts -->
+                                <h2 class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200">Contact Us</h2>
+
+                            </div>
+                        </div>   
+                            
+                        <div class="row">
+                            <!-- Form Starts -->
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="form animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="1000">
+                                    <div class="heading">Drop us a line.</div>
+                                    <form action="mailer.php" method="post" name="ContactForm" id="ContactForm">
+                                        <div id="message_post"></div>
+                                        <div class="input-group"> <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input type="text" name="name" class="form-control" placeholder="Name *">
+                                        </div>
+                                        <div class="input-group"> <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+                                            <input type="text" name="email" class="form-control" placeholder="Email *">
+                                        </div>
+                                        <div class="input-group"> <span class="input-group-addon"><i class="fa fa-comment-o"></i></span>
+                                            <textarea name="message" class="form-control" placeholder="Message *"></textarea>
+                                        </div>
+                                        <div class="input-group form-buttons"> <span class="input-group-btn">
+                                            <button class="btn btn-default" type="submit" value="Submit" name="submitf" id="submitf" style="width:100%;height:40px;"><i class="fa fa-envelope"></i> SEND</button>
+                                            </span> 
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Form Ends -->
+                        </div>
+                        <div class="col-md-10 address-details">
+
+                            <div class="animated fadeInRight visible" data-animation="fadeInRight" data-animation-delay="400"><span><i class="fa fa-location-arrow"></i> Postal Address</span><br>
+                                Finaureus Technologies Pvt. Ltd.<br>
+                                Plot no. 34/2, Rajiv Gandhi Infotech Park – Phase 1,<br>
+                                Hinjewadi, Pune 411 057<br>
+                                India.<br>
+                            </ div>
+
+                            <div class="row ">
+                                <div class="tel animated fadeInRight visible contact_row" data-animation="fadeInRight" data-animation-delay="600"><span><i class="fa fa-phone"></i> Telephone </span> +91 (20) 661 43 400</div>
+                                <div class="tel animated fadeInRight visible contact_row" data-animation="fadeInRight" data-animation-delay="600"><span><i class="fa fa-fax"></i>&nbsp;Fax</span>+91 (20) 661 43 500</div>
+                                <div class="tel animated fadeInRight visible contact_row" data-animation="fadeInRight" data-animation-delay="600"><span><i class="fa fa-envelope"></i> Email  </span><a href="mailto:info@finaureus.com" target="_blank">  info@finaureus.com</a></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Address Ends -->
+                </div>
+					
+				</div>
+				<!-- Contact Contents Ends -->
+			</div>
 </section>
+<!--Contact Section Ends here-->
+
+
 <footer class="footer">
 <div class="container">
 	<div class="well-sm pull-left">
@@ -349,8 +655,15 @@
 <script src="js/slick.min.js"></script> 
 <script src="js/createjs.min.js"></script> 
 <script src="js/logo.js"></script>
-<script src="js/main.js"></script>
-
+<script src="owlcarousel/owl.carousel.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/contact-form.js"></script>
+<!--script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });    
+</script-->
 <script>
     $(window).bind('scroll', function () {
     if ($(window).scrollTop() > 50) {
@@ -409,5 +722,6 @@ var scroll = $(window).scrollTop();
 });
 });*/
 </script>
+<script src="js/main.js"></script>
 </body>
 </html>
