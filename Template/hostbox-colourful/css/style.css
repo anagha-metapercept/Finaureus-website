@@ -29,7 +29,7 @@
 /*------------------------------------------------------------------
 	1. General styles
 -------------------------------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800);
+/*@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800);*/
 
 html{
   /*background: url(../images/slide-bg.jpg) no-repeat center center fixed; */
@@ -362,6 +362,22 @@ ul a {
     }
 }
 
+/*------Video and text on it------*/
+#video-container {
+   text-align: center;
+  
+   position: absolute;
+   z-index: 1;
+}
+
+#custom-message {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    margin-top: 350px;
+}
+
+
 header {
     position: relative;
     width: 100%;
@@ -369,13 +385,13 @@ header {
     text-align: center;
 }
 
-header .header-content {
+.header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
 }
-header .header-content .header-content-inner .slide-header {
+.header-content .header-content-inner .slide-header {
         margin-top: 0;
     margin-bottom: 0;
    /* font-family: Roboto Condensed;*/
@@ -385,7 +401,7 @@ header .header-content .header-content-inner .slide-header {
     text-transform: uppercase;
 
 }
-header .header-content .header-content-inner .slide-subheader {
+.header-content .header-content-inner .slide-subheader {
         margin-top: 0;
     margin-bottom: 0;
     font-size: 6em;
@@ -395,11 +411,11 @@ header .header-content .header-content-inner .slide-subheader {
     /*font-family: "Open Sans Condensed";*/
 }
 
-header .header-content .header-content-inner hr {
+.header-content .header-content-inner hr {
     margin: 15px auto;
 }
 
-header .header-content .header-content-inner p {
+.header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
@@ -411,7 +427,7 @@ header .header-content .header-content-inner p {
         min-height: 100%;
     }
 
-    header .header-content {
+    .header-content {
         position: absolute;
         top: 60%;
         padding: 0 50px;
@@ -421,13 +437,13 @@ header .header-content .header-content-inner p {
         z-index: 1;
     }
 
-    header .header-content .header-content-inner {
+    .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
        /* max-width: 680px;*/
     }
 
-    header .header-content .header-content-inner p {
+   .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
@@ -442,6 +458,15 @@ header .header-content .header-content-inner p {
 }
 
 @media(max-width:768px) {
+    .header-content {
+        position: absolute;
+        top: 30%;
+        padding: 0 20px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 1;
+    }
 #Raw-graph {
 		height:0px!important;
 	}
@@ -584,11 +609,11 @@ header .header-content .header-content-inner p {
     ), 
 	url(../images/bg1.jpg);
 	*/
-	background-image:url(../images/bg1.jpg);
+	/*background-image:url(../images/bg1.jpg);
 	background-position:top center;
 	background-size:cover;
 	position:relative;
-	padding-bottom:30px;
+	padding-bottom:30px;*/
 }
 #top-content .color-overlay{
 	position:absolute;
@@ -761,7 +786,7 @@ a  > .signup-button:hover{
 #top-content .signup-button{
 	margin-bottom:54px;
 }
-*/
+
 
 
 /*------------------------------------------
@@ -1127,6 +1152,10 @@ a img, img {
 
 /*------------------Solution Ends---------------------*/
 /*-------------Our Team---------------*/
+#team {
+    background-image: url(../images/white-paper-texture-hd.jpg);
+    background-size: cover;
+}
 .our-team{
     height: 300px;
     width: 300px;
@@ -1803,6 +1832,7 @@ section#social-icons {
 	border: 2px solid #FFF;
 }
 #contact .social .icon:hover {
+    cursor: pointer;
 	background-color: #00acec;
 }
 #contact .social .icon i {
@@ -2511,13 +2541,23 @@ footer a:hover{
 }
 }
 @media (max-width: 768px) {
+    #custom-message {
+        margin-top: 150px!important;
+    }
+    .signup-button {
+        margin-top: 19px;
+        margin-bottom: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
 	#top-content .header-text-2{
-		font-size:300%;
+		font-size:150%;
 	}
 	#top-content .header-text-3{
-		font-size:300%;
-	}
-	#top-content .header-text-4{
 		font-size:150%;
 	}
 .hide-f-details{

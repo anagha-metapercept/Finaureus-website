@@ -45,7 +45,7 @@ $(window).on("load", function() {
 	});
 	
     /*----------------JS for Open and Close Box-----------------*/
-	var boxOpened=false;
+	/*var boxOpened=false;
 	function openCloseBox(){
 		if(!boxOpened){
 			openBox();
@@ -156,7 +156,7 @@ $(window).on("load", function() {
 			}
 		}
 		return false;
-	});
+	});*/
 
 	$('.people-slider', '#testimonials').on('click', '.person-details', function() {
   		var personNum=$(this).data("num");
@@ -267,43 +267,6 @@ function init() {
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
 }
-
-/************************************************************************************ TEAM CAROUSEL STARTS */
-
-    //Sort random function
-
-    function random(owlSelector) {
-        owlSelector.children().sort(function () {
-            return Math.round(Math.random()) - 0.5;
-        }).each(function () {
-            $(this).appendTo(owlSelector);
-        });
-    }
-
-    $(".team-carousel").owlCarousel({
-        autoPlay: 10000,
-        slideSpeed: 500,
-        items: 4,
-        itemsDesktop: [1199, 4],
-        itemsDesktopSmall: [979, 4],
-        itemsTablet: [768, 2],
-        itemsMobile: [479, 1],
-        autoHeight: false,
-        pagination: true,
-        navigation: false,
-        transitionStyle: "fade",        
-        navigationText: [
-            "<i class='fa fa-angle-left'></i>",
-            "<i class='fa fa-angle-right'></i>"
-        ],
-        
-        /*beforeInit: function (elem) {
-            random(elem);
-        }
-*/
-    });
-
-/************************************************************************************ TEAM CAROUSEL ENDS */
 
 
 /*--------------- 3D Flip Button -------------------*/

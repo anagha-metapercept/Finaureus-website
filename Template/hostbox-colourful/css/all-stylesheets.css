@@ -14,22 +14,17 @@
 @import url("slick.css");
     
 /* Default Color */
-@import url(purple-theme.css)
 @import url("blue.css");
+@import url(purple-theme.css);
 
 /* Icons Hover Effect Stylesheet */
 @import url("components.css");
 
 /* Items Animation */
-@import url("animate.css");
 @import url("animate.min.css");
-
-/* Owl Carousel */
-@import url("../owlcarousel/owl.carousel.css");
-@import url("../owlcarousel/owl.theme.css");
-/*@import url(../owlcarousel/owl.theme.default.css);*/
-@import url("../owlcarousel/owl.transitions.css");
+@import url("animate.css");
 
 /* FontAwesome */
 @import url("font-awesome.min.css");
 
+@import url("bootstrap-grid.min.css");
