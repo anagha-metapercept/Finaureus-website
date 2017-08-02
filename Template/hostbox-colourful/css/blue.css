@@ -93,6 +93,10 @@ section#welcome .buttons a:hover {
 #contact .address span {
 	color: #fff;
 }
+#contact .address span.input-group-addon {
+	color: #000;
+}
+
 #contact .address a {
 	color: #fff;
 }
